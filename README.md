@@ -73,3 +73,4 @@ export default defineConfig([
 ])
 
 ```
+Projeto Estoque da Gráfica
