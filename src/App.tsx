@@ -715,7 +715,7 @@ return (
             </p>
           </div>
         ) : (
-          reminders.map((reminder, index) => (
+          reminders.map((reminder) => (
             <div
               key={reminder.id}
               className="rounded-xl border border-slate-200 bg-slate-50 p-4"
@@ -1682,7 +1682,7 @@ if (entryError) {
       </p>
     ) : (
       <div className="mt-4 space-y-3">
-        {entries.map((entry, index) => (
+        {entries.map((entry) => (
           <div
   key={entry.id}
   className="rounded-xl border border-emerald-100 bg-emerald-50/30 p-4 transition hover:shadow-sm"
@@ -2058,7 +2058,7 @@ if (entryError) {
     </p>
   ) : (
     <div className="mt-4 space-y-3">
-      {exits.map((exit, index) => (
+      {exits.map((exit) => (
         <div
           key={exit.id}
           className="rounded-xl border border-red-100 bg-red-50/30 p-4 transition hover:shadow-sm"
